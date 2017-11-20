@@ -1,18 +1,46 @@
-# zbsquad
-Team bot zabakuat squad protect and kick chivas
-Dibutuhkan 10 akun line 1 akun sb=cl dan 9 akun bot.
 
-sudo apt-get update
-sudo apt-get install git
-sudo apt-get install python-software-properties
-git clone https://github.com/andyihsan/LIN3-TCR
-sudo pip install rsa
-sudo pip install thrift==0.9.3
-sudo pip install requests. 
-cd LIN3-TCR
-python line-tcr.py
+     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
+    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
+    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
+    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
+     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
+    ----------------------------------------------------------------- 
 
-edit dlu
 
-cl kk ki sama kc dst
-masukan mid admin, dan login dengan token
+Welcome to your Python project on Cloud9 IDE!
+
+To show what Cloud9 can do, we added a basic sample web application to this
+workspace, from the excellent Python tutorial _Learning Python the Hard Way_.
+We skipped ahead straight to example 50 which teaches how to build a web
+application.
+
+If you've never looked at the tutorial or are interested in learning Python,
+go check it out. It's a great hands-on way for learning all about programming
+in Python.
+
+* _Learning Python The Hard Way_, online version and videos: 
+http://learnpythonthehardway.org/book/
+
+* Full book: http://learnpythonthehardway.org
+
+## Starting from the Terminal
+
+To try the example application, type the following in the terminal:
+
+```
+cd ex50
+python bin/app.py
+```
+
+Alternatively, open the file in ex50/bin and click the green Run
+button!
+
+## Configuration
+
+You can configure your Python version and `PYTHONPATH` used in
+Cloud9 > Preferences > Project Settings > Language Support.
+
+## Support & Documentation
+
+Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE.
+To watch some training videos, visit http://www.youtube.com/user/c9ide.
