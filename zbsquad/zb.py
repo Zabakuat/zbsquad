@@ -10,43 +10,43 @@ import time,random,sys,json,codecs,threading,glob,re
 #kk.loginResult()
 
 cl = LINETCR.LINE() # Akun Utama
-cl.login(token='Em6PhXnay3rx8p906RUb.VTOY/nezNYTPVdT45I59sW.SWJQdY96+w4YjW68+roDFOY8n5nAAd0Hw4xAQUr8ukE=')
+cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE() #Bot 1
-ki.login(token='EmnMgSOm81Msswz2CLyc.93tZktA3Uh+4lGrIqc9ZBa.mm9AO3F4976jLcTUMpnSDQH3mXyCEx2W6H8sCFEc/CU=')
+ki.login(qr=True)
 ki.loginResult()
 
 kk = LINETCR.LINE() #Bot 2
-kk.login(token='EmDJEQKvCDTdLnQTsOB2.2yG/awJ5UcH3Xg1BtPiRGG.bVSHddO+aq5KxB4RmOuyY5z0YFwD0IahHnfCQtJhWwk=')
+kk.login(qr=True)
 kk.loginResult()
 
 kc = LINETCR.LINE() #Bot 3
-kc.login(token='EmOx7MxSi8R1qniiPBw1.JHGm/R92p62n7ATSSJJ4Oq.qiCTUQGxeV7lG5hFdebqEchtCLnGqOeoQoNBmeI8R9c=')
+kc.login(qr=True)
 kc.loginResult()
 
 ks = LINETCR.LINE() #Bot 4
-ks.login(token='Em9YkTTWAc11efvXXO08.N/W1g/3CbOZsbk3/nqyGsa.ljdtrCwzioGjwM0r3thZS73I4VL9jRLSe4xsXy4GKi8=')
+ks.login(qr=True)
 ks.loginResult()
 
 ka = LINETCR.LINE() #Bot 5
-ka.login(token='EmFjkVWwkglwAaBFMu11.yUFPEkSUMlMnrhez3NOieq.ShITAxR9b6EqEOw+ln9wV2/4e756+NcBjqyanC1GGL8=')
+ka.login(qr=True)
 ka.loginResult()
 
 kb = LINETCR.LINE() #Bot 6
-kb.login(token='EmBfs9sBaYhY9T6UNaU6.sS5HdhaddAXr6HX5LdBr5G.P7/hDr58eIVq7H8v48ZkABwDDNKA3sRnrLIhnqMv8H8=')
+kb.login(qr=True)
 kb.loginResult()
 
 ko = LINETCR.LINE() #Bot 7
-ko.login(token='Em2eX3Ro3Lta0ujKL1S0.u6AcfX7RpDD/H2U1UJsTqa.wInXIC6GOzQ5rvsbMbvg8J7gzquoMvEbn2NwkjQk56o=')
+ko.login(qr=True)
 ko.loginResult()
 
 ke = LINETCR.LINE() #Bot 8
-ke.login(token='EmIhwhHuBD14RevwsEre.RC3jmzmwWy/S4Ks2uiq1hG.t3uMRa/eM4+ZGY3NJ5iUjHWEDDWwzDTdJIiEQtTYFE4=')
+ke.login(qr=True)
 ke.loginResult()
 
 ku = LINETCR.LINE() #Bot 9
-ku.login(token='EmQ8IczTUK3zOQcNUmVe.Xyga7bprmgduQkunU7XAlG.jaPr/qzo49TnxTRFYAvrm8LA6oOB/+IMul7hpW0vE0w=')
+ku.login(qr=True)
 ku.loginResult()
 
 print "login success ZB"
@@ -85,9 +85,6 @@ helpMessage ="""
 ↔[Cctv - Ciduk]= Spy pengintip
 ↔[LG] = List Group
 ↔[Bot out] = Keluar dari semua room
-===================
- ZB ADMIN COMMAND
-===================
 ↔[Key]   = Daftar Keyword
 ↔[Mymid] = Mid Sendiri
 ↔[Zbmid] = Mid Bot
